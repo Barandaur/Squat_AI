@@ -1,2 +1,2 @@
-# Squat_AI
+# Squat.AI
 insert project description here
