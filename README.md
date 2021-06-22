@@ -8,11 +8,6 @@ This work couldn't have been possible without an amazing team, so acknowledgemen
 - Flavia Monaci ([Linkedin](https://www.linkedin.com/in/flavia-monaci-76503319a/), [GitHub]())
 
 ## Project Description
-As coursework for the Marketing for Innovation exam at Bocconi, my team retrieved and analyzed free secondary data to come up with a product idea for Lavazza.
-Lavazza's team evaluated our work with a mark of 29/30.
+As coursework for the Computer Vision exam, my team produced a script which takes videos of a squatting person as input, and returns whether the exercise is correctly done or, otherwise, feedback on the mistake.
 
-We used Python to retrieve Twitter data through an API, enabling us to create Positioning Maps and to assess the userbase of our client, which allowed us to identify personas and customer journeys.
-Based on the above, we were able to propose an innovative product idea.
-
-
-My teammates for this project were: Priamo Puschiasis, Simone Lorenzetti, Flavia Monaci, Alessandro Botti
+We used a similar approach to Ogata et al. (2019). Notably, our main strategy was to carry out a multi-class classification task based on temporal distance matrices computed on the 2D body joints retrieved from the videos.
