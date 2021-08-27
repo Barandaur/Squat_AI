@@ -13,7 +13,7 @@ As coursework for the Computer Vision exam, my team produced a script which take
 We used a similar approach to Ogata et al. (2019). Notably, our main strategy was to carry out a multi-class classification task based on temporal distance matrices computed on the 2D body joints retrieved from the videos.
 
 ## Pipeline
-We take advantage of the publicly available dataset used in Ogata et al. (2019), from which we take also the final model's architecture.
+We take advantage of the publicly available dataset used in Ogata et al. (2019).
 Our steps can be defines as follow:
 - Every other frame of an input video, *extract the keypoint coordinates of the body*. To do so, we test two OpenPose implementation and evaluate them based on several factor, the main one being the number of missing values or frames that each model outputs.
 - *Pre-processing*. We deal with several problems of the data extracted in the previous step. For example, we need to deal with NaNs (we ended up imputing them), with videos which may be registered at different fps, or with the coordinates of some body-parts which get mistakenly swapped. Finally, we smooth the keypoints time-series using the Savitzky-Golay Filter.
